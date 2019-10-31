@@ -21,7 +21,7 @@ header {
     font-size: 36px;
     padding: 20px;
     display: inline-block;
-    margin-left: 210px;
+    margin-left: auto;
     border-style: solid;
     border-width: 4px;
     border-color: rgba(0, 0, 0, 0.459);
@@ -45,10 +45,19 @@ body {
 
 }
 
-p { color: black;
+p { 
+    
+    color: black;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
 }
+
+
+.topbar {
+ width: 100%;
+
+}
+
 
 main {
     background-color: #ccc;
@@ -107,12 +116,23 @@ main {
   }
 
   .headersection {
-    margin-left: 50%;
+    float: right;
     display:Inline-block;
     font-weight: bold;
-   
+    margin-top: 40px;
+    margin-right: 25px;
 
  }
 
-  .clickers { color: rgb(112, 112, 112); } /* CSS link color (red) */
-  .clickers:hover { color: rgb(255, 255, 255); }
+  .clickers { 
+      content: "";
+      clear: both;
+    color: rgb(112, 112, 112); 
+} 
+  
+    .clickers:hover { color: rgb(255, 255, 255); }
+
+
+  .merger {
+      margin: auto;
+  }
