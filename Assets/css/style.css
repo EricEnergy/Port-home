@@ -5,20 +5,28 @@
 
 
 header {
-    background-color:#ffffff;
-    padding: 50px;
+    background-color:#bebebe;
+    padding: 0px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(39, 39, 39);
 
     
 }
 
-.test {
-    color: black;
-    background-color: red;
+.name {
+    color: rgba(255, 255, 255, 0.842);
+    background-color: rgba(59, 59, 59, 0.288);
     text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    padding: 50px;
-    float:left;
+    font-size: 36px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 210px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgba(0, 0, 0, 0.459);
+    font-family: Impact, fantasy;
+    letter-spacing: 8px;
 
 } 
 
@@ -42,29 +50,14 @@ p { color: black;
     
 }
 
-.name {
-    color: black;
-    background: #ccc;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    left: 0px;
-    top: -100px;
-    padding: 25px 50px 25px 50px;
-
-
-  }
-
 main {
     background-color: #ccc;
     padding: 40px 30px 300px 30px;
     width: 75%;
     margin: auto;
     position: relative;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    height: 100px;
+    margin-top: 50px;
+    
   }
 
   h2 {
@@ -73,3 +66,53 @@ main {
     color: black;
 
   }
+
+  hr {
+      margin-bottom: 20px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #505050;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4CAF50;
+  }
+  
+  .container {
+    color: black;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .clickers {
+    
+  }
+
+  .headersection {
+    margin-left: 50%;
+    display:Inline-block;
+    font-weight: bold;
+   
+
+ }
+
+  .clickers { color: rgb(112, 112, 112); } /* CSS link color (red) */
+  .clickers:hover { color: rgb(255, 255, 255); }
